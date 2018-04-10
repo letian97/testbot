@@ -1,0 +1,108 @@
+html, body
+{
+  height: 100%;
+  width: 100%;
+}
+
+video
+{
+  display: none;
+  width: 100%;
+}
+
+canvas
+{
+  width: 100%;
+}
+
+p
+{
+  width: 90%;
+  margin: 0px auto;
+}
+
+div.morse-card
+{
+  width: 100%;
+  background-color: rgb(255,87,34);
+  color: rgb(255,255,255);
+  overflow-y: auto;
+}
+
+div.translated-card
+{
+  width: 100%;
+  background-color: rgb(255,215,64);
+  color: rgb(66,66,66);
+}
+
+span.card-heading
+{
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+}
+
+a.mdl-button--icon
+{
+  display: inline-block;
+  float: right;
+  margin-right: 16px;
+}
+
+.translated-card > .mdl-textfield
+{
+  width: calc(100vw - 16px);
+}
+
+.page-content
+{
+
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 56px);
+}
+
+.tx-controls
+{
+  width:100%;
+  text-align: center;
+}
+
+.outputArea
+{
+  flex-grow: 1;
+  background-color: black;
+  min-height: 100px;
+}
+
+.tx-controls > label
+{
+  width: 20%;
+  float: right;
+  display: inline;
+}
+
+.tx-controls > p.slider
+{
+  margin: auto 0px;
+  width: 95%;
+}
+
+#is-tx
+{
+  width: 20%;
+  margin: 0px auto;
+}
+
+#p1
+{
+  width: 95%;
+  margin: auto 0px;
+}
+
+.tx-controls > button
+{
+  margin-bottom: 4px;
+}
+
